@@ -142,7 +142,7 @@ public class PlacingAnOrder {
 		driver.findElement(By.xpath("/html/body/c-wiz/div/div/div[2]/div[2]/span[1]/div/button")).click();
 		
 		System.out.println(driver.findElement(By.xpath("/html/body/section/div/div/div/div[1]/div[2]/form/div/div[1]/div[2]/span")).getText());
-	
+		driver.quit();
 
 	}
 
